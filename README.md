@@ -70,7 +70,7 @@ You can upload your databases in various formats or submit upload requests with 
 9. For fields with multiple values (Author, Co-authors, Characters, Manual Tags, Automatic Tags, or files), separate the values using a semicolon (;).
 10. Supported CSV delimiters are comma (,), semicolon (;), and tab.
 11. This GitHub repository contains fillable templates in CSV, Excel, and OpenDocument formats. Be sure to export Excel and OpenDocument files as CSV before uploading.
-12. CSV files must use UTF-8 encoding. Using other encodings may cause certain characters to display incorrectly. Refer to this simple guide to check your CSV’s encoding and convert it to UTF-8 if needed. [Link](https://drive.google.com/drive/folders/1SBmLK9Qur2xCvLeBfUTYMXU6NX9KoBsO)
+12. CSV files must use UTF-8 encoding. Using other encodings may cause certain characters to display incorrectly. Refer to this simple [guide](https://drive.google.com/drive/folders/1SBmLK9Qur2xCvLeBfUTYMXU6NX9KoBsO) to check your CSV’s encoding and convert it to UTF-8 if needed.
 
 
 **File formats supported by the Apache Tika software can be used as attachments.** 
