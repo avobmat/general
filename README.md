@@ -60,7 +60,7 @@ You can upload your databases in various formats or submit upload requests with 
 
 1. AVOBMAT currently supports 178 metadata fields including the ones used by the [Zotero](https://www.zotero.org/) reference manager. 
 2. Use only the metadata fields that you need and feel free to delete unnecessary ones..
-3. The mandatory CSV fields are: Key and one of the date fields (Date, Publication Year, Reference year, Normalised year).
+3. The mandatory CSV fields are 'Key' and 'Date'. The value of the 'Date' field can correspond to one of the following date fields: Publication Year, Reference Year, Normalized Year, First Edition, Print Edition, Premier Year, etc.
 4. To export Zotero collections in CSV and RDF formats, right-click on the collection and choose “Export Collection…”.
 5. If you want to upload and preprocess files, include their file names in the “files” field of the CSV.
 6. The CSV file and the text files of various sorts must be compressed into a single ZIP file.
