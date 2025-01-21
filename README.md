@@ -54,8 +54,7 @@ You can upload your databases in various formats or submit upload requests with 
 - CSV with embedded texts
 - TEI XMLs with CSV (metadata)
 - Zotero RDF (metadata and text files)
-- EP3 XML (metadata)
-- EP3 XML (metadata with external links to text files)
+
 
 **Important Remarks:**
 
