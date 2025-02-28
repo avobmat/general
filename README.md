@@ -87,7 +87,9 @@ You can upload your databases in various formats or submit upload requests with 
 # License
 [Terms of Use](https://docs.google.com/document/d/17XWovDNecfE-GNvso7LRIQ_UcDc5FxDW0-i5eBq7X7Q/edit?tab=t.0)
 
-# Citation
-We kindly request that you acknowledge AVOBMAT by citing the following paper in any publications resulting from its use:
+# Acknowledgement
+We kindly request that you acknowledge AVOBMAT by citing the following papers in any publications resulting from its use and mentioning the support of the Hungarian Research Network Cloud (https://science-cloud.hu/).
 
-Péter, R.; Szántó, Zs; Biacsi, Z.; Berend, G.; Bilicki, V. (2024). “Multilingual Analysis and Visualization of Bibliographic Metadata and Texts with the AVOBMAT Research Tool” *Journal of Open Humanities Data* 10: 1-10.
+Péter, R.; Szántó, Zs; Biacsi, Z.; Berend, G.; Bilicki, V. (2024). “Multilingual Analysis and Visualization of Bibliographic Metadata and Texts with the AVOBMAT Research Tool”, Journal of
+Open Humanities Data vol. 10. pp. 1-10. DOI: 10.5334/johd.175.
+Héder, M. et al. (2022) “The Past, Present and Future of the ELKH Cloud”, Információs Társadalom, vol. 22, no. 2. p. 128, DOI: 10.22503/inftars.xxii.2022.2.8.
