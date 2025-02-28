@@ -35,7 +35,7 @@ This github repository contains the following:
 1. Sample upload databases, files and the supported metadata fields (179)
 
 2. Enriched and corrected [DraCor](https://dracor.org/) drama metadata. 
-- We added the following new fields to the original CSVs of the DraCor repository: Author gender, Author birth, Author death, Characters (with their gender), Co-authors,			Author age (time of writing), Posthumous publication. 
+- We added the following new fields to the original CSVs of the DraCor repository: Author forename, Author gender, Author birth, Author death, Characters (with their gender), Co-authors, Author age (time of writing), Posthumous publication
 		 
 3. Enriched and corrected [ELTeC](https://github.com/COST-ELTeC) novel metadata.
 - We added the following new fields to the original CSVs of the ELTeC repository: Author age (time of writing) and Posthumous publication.
