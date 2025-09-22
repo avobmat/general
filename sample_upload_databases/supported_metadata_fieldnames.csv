@@ -1,23 +1,64 @@
-﻿Fieldname in CSV
+Supported Metadata Field Names in CSV:
 Abstract Note
+Access Date
+Addressee
 Archive
 Archive Location
+Area
 Author
+Author Age (Time of Writing)
+Author Birth
+Author Death
+Author Gender (Manual)
+Author Movement
+Author Pseudonyme
+Authorid
+Automatic Tags
 Book Author
+Bookseller
+Call Number
 Cast Member
+Characters
+Citizenship
+Co-authors
 Commenter
 Composer
 Conference Name
 Contributor
+Corpus
 Country
 Date
 Date Added
 Date Modified
+Date of Birth
+Date of Death
+Date To
+Destination
+Digital Edition
+Document Items
+Document Type
 DOI
 Edition
 Editor
+Ending
+ESTC
 Extra
+Filename
+files
+First Edition
 Frequency of Publication
+Gatherings
+Gatherings original
+Genre
+Genre Analyzed
+Height
+Height Original
+Identifiers
+Imprint
+Imprint Author
+Imprint Date
+Institutions
+ISBN
 ISSN
 Issue
 Issuing Authority
@@ -25,949 +66,120 @@ Item Type
 Journal Abbreviation
 Key
 Language
+Latitude
+Legal Status
 Library Catalog
+Libretto
+Longitude
 Manual Tags
+Meeting Name
+Mentions
+Multivol
+Named Entities
+Narrative Perspective
+Narrative Time Period
+Narrative Time Span
+Narrator
+No of Acts
+No of Co-authors
+No of Connected Components
+No of Edges
+No of Lines
+No of Paragraphs
+No of Person Groups
+No of Segments
+No of Speakers
+No of Speakers (Female)
+No of Speakers (Male)
+No of Speakers (Unknown)
+No of Words
+No of Words (Speakers)
+No of Words (Stage Directions)
+Normalized Genre
+Normalized Year
 Notes
 Num Pages
 Number Of Volumes
 Number of Words
+Obl
+Obl Original
+Origin
+Original Row
+Pagecount Original
 Pages
+Paper
+Paper Check
+Parts
+Persons
 Place
+Possessor
+Posthumous
+Premier Year
+Print Edition
+Printers
+Protagonist Age Group
+Protagonist Gender
+Protagonist Name
+Protagonist Profession
+Protagonist Social Level
+Provenance
+Public Status
+Publication Decade
+Publication Frequency Annual
+Publication Frequency From
+Publication Frequency Text
+Publication Frequency Till
+Publication Geography
+Publication Interval From
+Publication Interval Till
+Publication Place
+Publication Statement
+Publication Time
 Publication Title
+Publication Topic
+Publication Year
+Publication Year From
+Publication Year Till
 Publisher
+Publishing Notes
+Recipient
+Reference Year
+Related Resources
+Religion
+Repository
+Representation Style
+Reprint Count
 Reviewed Author
 Rights
+Self Published
+Seller
+Series
 Series Editor
+Series Number
+Series Title
+Setting
+Setting Type
 Short Title
+Singlevol
+Size
+Source of Record
+Subgenre
+Subject Topic
+Subtitle
+Supergenre
+text
+Text Movement
+Time
+Time Slot
 Title
+Titleid
 Translator
 Type
-Volume
-Time
-Reprint count
-Size
-Author gender (manual)
-Reference year
-Time slot
-Date of death
-Date of birth
-Possessor
 Typographer
-Source of Record
-Mentions
-Related Resources
-Recipient
-Citizenship
-Religion
-Longitude
-Latitude
-Original row
-Publication geography
-Publication topic
-Subject topic
-Publication interval till
-Publication interval from
-Publication frequency text
-Publication frequency annual
-Obl origninal
-Height original
-Width original
-Gatherings original
-Publication time
-Document type
-Document Items
-Paper check
-Paper
-Multivol
-Singlevol
-Pagecount orig
-Area
-Obl
-Height
-Width
-Gatherings
-Self published
-Parts
-Publication decade
-Publication year till
-Publication year from
-Author pseudonyme
-Co-authors
-No of lines
-No of paragraphs
-No of words (stage directions)
-No of words (speakers)
-No of words
-No of acts
-No of segments
-Year written
-No of edges
-No of connected components
-No of person groups
-No of speakers (unknown)
-No of speakers (male)
-No of speakers (female)
-No of speakers
-Premier year
-Libretto
-Normalized year
-Normalized genre
-Subtitle
-No of co-autthors
-Characters
-Filename
-WikidataId
-Posthumous
-Publication statement
-Author age (time of writing)
-Narrative perspective
-Subgenre
-Titleid
-Provenance
-Print edition
-Digital edition
-First edition
-Corpus
-Author death
-Author birth
 Url
-Series Title
-Series Number
-Series
-Repository
-Printers
-Publication Place
-Persons
-Origin
-Meeting Name
-Legal Status
-ISBN
-Institutions
-Destination
-Date To
-Call Number
-Bookseller, Seller
-Automatic Tags
-Addressee
-Access Date
-Publication Year
-files
-text
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Volume
+Width
+Width original
+WikidataId
+Xmlid
+Year Written
