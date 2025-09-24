@@ -70,32 +70,60 @@ You can upload your databases in various formats or submit upload requests with 
 - Zotero RDF (metadata and text files)
 
 
-**Important Remarks:**
+# Steps for Preparing and Uploading Textual Data
 
-1. AVOBMAT currently supports 178 metadata fields including the ones used by the [Zotero](https://www.zotero.org/) reference manager. 
-2. Use only the metadata fields that you need and feel free to delete unnecessary ones..
-3. The mandatory CSV fields are 'Key' and 'Date'. The value of the 'Date' field can correspond to one of the following date fields: Publication Year, Reference Year, Normalized Year, First Edition, Print Edition, Premier Year, etc.
-4. To export Zotero collections in CSV and RDF formats, right-click on the collection and choose “Export Collection…”.
-5. If you want to upload and preprocess files, include their file names in the “files” field of the CSV.
-6. The CSV file and the text files of various sorts must be compressed into a single ZIP file.
-7. AVOBMAT can download files directly from the internet and preprocess them. To enable this, include the file URLs in the “files” field of the CSV.
-8. Texts for analysis can also be provided in the “text” field of the CSV.
-9. For fields with multiple values (Author, Co-authors, Characters, Manual Tags, Automatic Tags, or files), separate the values using a semicolon (;).
-10. Supported CSV delimiters are comma (,), semicolon (;), and tab.
-11. This GitHub repository contains fillable templates in CSV, Excel, and OpenDocument formats. Be sure to export Excel and OpenDocument files as CSV before uploading.
-12. CSV files must use UTF-8 encoding. Using other encodings may cause certain characters to display incorrectly. Refer to this simple [guide](https://drive.google.com/drive/folders/1SBmLK9Qur2xCvLeBfUTYMXU6NX9KoBsO) to check your CSV’s encoding and convert it to UTF-8 if needed.
+You don’t need programming knowledge to upload your own databases. Just follow these steps carefully.
+
+1. Fill in your spreadsheet (Excel or LibreOffice)
+    - Start with one of the fillable templates provided in the sample_upload_databases folder of this GitHub repository (for example, avobmat_fillable_and_instructions_xlsx.xlsx).
+    - These templates already contain all supported metadata fields such as Author, Title and Date, so you don’t have to create the spreadsheet from scratch.
+    - AVOBMAT supports over 200 metadata fields (including Zotero fields), but you only need to use the ones relevant to your project. Extra columns can be left blank or deleted.
+    - The mandatory columns in the spreadsheet are the following:
+        1. Key → a unique identifier for each item (e.g. a book)
+        2. Date → a date associated with the item (e.g. Publication Year, Reference Year, First Edition Year, Print Edition Year, Premier Year, etc.).
+
+2. Handle fields with multiple values
+    - Some fields allow more than one value (for example: Author, Co-authors, Characters, Manual Tags, files).
+    - In the template file avobmat_fillable_and_instructions_xlsx.xlsx, fields that allow multiple values are marked with a green check mark ✅.
+    - Separate multiple values with a semicolon ( ; ). Example: Smith,John;Doe,Jane
+
+3. Add files or texts
+    - To include files for analysis, put their file names in the files column.
+    - Supported file formats: You can attach any file type supported by Apache Tika. These include:
+        1. Microsoft Office: .doc, .docx, .xls, .xlsx, .ppt, .pptx
+        2. OpenDocument: .odt, .ods, .odp
+        3. Web formats: .html, .xhtml
+        4. Plain text: .txt
+        5. PDF: .pdf
+        6. TEI XML format: .xml
+        7. Rich Text Format: .rtf
+    - You may also include URLs in the files column. AVOBMAT will download and preprocess them automatically.
+    - If you prefer to provide text directly, paste it into the text column.
+    - It is also possible to run analyses on metadata only (CSV without any text).
+
+4. Save your spreadsheet as CSV (UTF-8)
+    - When your database is ready, export it from Excel or LibreOffice as a CSV (UTF-8) file.
+    - In Excel:
+        1. Open your filled worksheet.
+        2. If you want to save all metadata, clear filters. If you only want to save a filtered subset, apply filters first.
+        3. Go to File > Save As, choose a location, and select CSV (UTF-8) format.
+        4. Click Save.
+    - In LibreOffice: use File > Save As and select Text CSV (.csv), making sure UTF-8 is chosen as the encoding.
+    - AVOBMAT accepts CSVs with comma (,), semicolon (;), or tab delimiters.
+    - Always save in UTF-8 encoding so that all special characters display correctly. Using other encodings may cause certain characters (such as accents or special symbols) to look wrong.
+    - If you are unsure whether your CSV is UTF-8, you can check and convert it using this simple guide.
+
+5. Export (textual) data from Zotero (OPTIONAL)
+    - To use your Zotero collections, right-click on a collection and select “Export Collection…”.
+    - Export in CSV or RDF (metadata and texts) format. You can then adapt the exported file to AVOBMAT.
 
 
-**File formats supported by the Apache Tika software can be used as attachments.** 
-
-**They include the following formats:**
-
-- Microsoft Office: .doc, .docx, .xls, .xlsx, .ppt, .pptx
-- OpenDocument: .odt, .ods, .odp
-- Html, xhtml
-- TXT
-- PDF
-- RTF
+6. Bundle your files for upload
+    - If you are analyzing only metadata: just upload your CSV file.
+    - If you are analyzing texts as well: either
+        - include them directly in the text column of the CSV, or
+        - place the CSV and text files together in one folder.
+    - If you have separate text files, compress the CSV and text files into a single ZIP file before uploading.
 
 
 # License
