@@ -4,30 +4,44 @@
 
 [Registration](https://avobmat-gwdg.web.app/register)
 
-# Description
-The [AVOBMAT](https://avobmat.hu/) (Analysis and Visualization of Bibliographic Metadata and Texts) multilingual research tool enables researchers, without programming skills, to critically analyse bibliographic data and texts at scale. This exploratory tool offers a range of dynamic text and data mining tasks and provides interactive parameter tuning and control from the preprocessing to the analytical stages. The implemented analytical and visualization tools provide close and distant reading of texts and bibliographic data. It helps users realize the epistemological challenges, limitations and strengths of computational text analysis and visual representation of digital texts and datasets. 
+# What is AVOBMAT?
+[AVOBMAT](https://avobmat.hu/) stands for “Analysis and Visualization of Bibliographic Metadata and Text.”
 
-**The unique features of the [AVOBMAT](https://avobmat.hu/) toolkit are:**
-- it combines bibliographic data and textual analysis, enabling users to ask complex research questions, in one integrated, interactive and user-friendly web application; 
-- the use of transformer language models on a scalable, cloud-based infrastructure that allows researchers to preprocess and analyse texts and metadata at scale; 
-- it analyses and enriches texts and metadata in 16 languages; 
-- users can make their private databases public. 
+[AVOBMAT](https://avobmat.hu/) is a multilingual text mining service created in close collaboration with researchers for research and teaching. It empowers scholars, educators, and students to explore large collections of textual and bibliographic data—without programming skills or costly hardware—on a user-friendly, web-based platform.
+
+Built on an extensible, scalable, and modular cloud-based infrastructure, AVOBMAT ensures a transparent and reproducible research process supported by a wide range of analytical and visualization tools. Designed for environment-conscious use, it enables researchers to reveal hidden connections, enrich texts and metadata, and collaborate by sharing private databases. With support for 25 languages and customizable features, AVOBMAT makes advanced text analysis accessible so researchers can focus on critical interpretation and discovery.
+
+The implemented analytical and visualization tools provide both close and distant reading of texts and bibliographic data. AVOBMAT also helps users realize the epistemological challenges, limitations, and strengths of computational text analysis and visual representation of digital texts and datasets.
 
 The workflow of [AVOBMAT](https://avobmat.hu/) was published in the peer-reviewed [Journal of Open Humanities Data](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.175) and the [Social Sciences and Humanities Open Marketplace](https://marketplace.sshopencloud.eu/workflow/RzvCOP).
 
+# Why use [AVOBMAT](https://avobmat.hu/)?
+- Uncover new insights by revealing connections, themes, trends, and patterns that might otherwise remain hidden.- the use of transformer language models on a scalable, cloud-based infrastructure that allows researchers to preprocess and analyse texts and metadata at scale; 
+- Test hypotheses and discover new evidence with advanced analytical methods.
+- Upload and explore large digital collections from your own research or your library with customizable preprocessing, analysis, and visualization tools.
+- Combine bibliographic data and text analysis to ask complex research questions using natural language processing techniques.
+- Critically interpret texts, metadata, and visualizations, recognizing the strengths and limitations of computational methods.
+- Detect biases and errors (e.g. selection, metadata, classification) in large databases to make more informed research decisions.
+- Teach digital humanities by demonstrating both the possibilities and challenges of computational text analysis and visualization.
+- Collaborate and share your findings or make your databases public to support collective knowledge-building.
+
 # AVOBMAT features
 
-- **Multilingual Text Enrichment:** [AVOBMAT](https://avobmat.hu/) can preprocess, analyse, and (semantically) enrich a large number of texts and metadata in several languages without coding skills.
+- **Multilingual Text Enrichment:** Preprocess, analyze, and semantically enrich large numbers of texts and metadata in 25 languages without coding skills.
 
-- **Interactive Text Analysis:** The analytical and visualization tools provide interactive close and distant reading of texts and bibliographic data.
+- **Interactive analysis:** Explore texts and bibliographic data with tools that support both close and distant reading.
 
-- **Validated, Transparent and Customizable Workflow:** [AVOBMAT](https://avobmat.hu/) has a transparent, peer-reviewed workflow with customizable parameter settings for all tools.
+- **Transparent and reproducible workflows:** Built on a peer-reviewed, extensible, scalable, and modular cloud-based infrastructure, with customizable settings for every tool.
 
-- **User-friendly NLP tools:** [AVOBMAT](https://avobmat.hu/) combines bibliographic data and natural language processing research methods (e.g. transformer models) in an integrated, interactive and user-friendly web application.
+- **Environment-conscious use**: Infrastructure designed with sustainability in mind.
 
-- **Critical Analysis and Visualizations:** [AVOBMAT](https://avobmat.hu/) fosters critical analysis, for instance, by identifying data gaps and missing metadata values.
+- **User-friendly NLP tools:** Integrates bibliographic data with cutting-edge natural language processing methods in a single, interactive platform.
 
-- **Comparative and Diachronic Analysis:** [AVOBMAT](https://avobmat.hu/) offers multilingual comparative analysis with time-based components.
+- **Critical Analysis and Visualizations:** Identify data gaps, missing metadata, or inconsistencies to strengthen your research.
+
+- **Comparative and diachronic analysis:** Conduct multilingual, time-based comparisons across different corpora.
+
+- **Collaboration tools**: Share private databases and results to foster cooperation between researchers.
 
 # Contents
 This github repository contains the following:
