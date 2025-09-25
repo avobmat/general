@@ -78,6 +78,7 @@ You don’t need programming knowledge to upload your own databases. Just follow
     - Start with one of the fillable templates provided in the sample_upload_databases folder of this GitHub repository (for example, avobmat_fillable_and_instructions_xlsx.xlsx).
     - These templates already contain all supported metadata fields such as Author, Title and Date, so you don’t have to create the spreadsheet from scratch.
     - AVOBMAT supports over 200 metadata fields (including Zotero fields), but you only need to use the ones relevant to your project. Extra columns can be left blank or deleted.
+    - If the required metadata field is not available in the spreadsheet, use one of the existing fields. You will be able to rename it after uploading your database.
     - The mandatory columns in the spreadsheet are the following:
         1. Key → a unique identifier for each item (e.g. a book)
         2. Date → a date associated with the item (e.g. Publication Year, Reference Year, First Edition Year, Print Edition Year, Premier Year, etc.).
