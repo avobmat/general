@@ -127,6 +127,9 @@ You don’t need programming knowledge to upload your own databases. Just follow
     - If you have separate text files, compress the CSV and text files into a single ZIP file before uploading.
 
 
+7. If you are not a privileged user with full upload rights, please provide a link to the shared folder (e.g., Google Drive, Dropbox, or OneDrive) where we can access your zipped file.
+
+
 # License
 [Terms of Use](https://docs.google.com/document/d/17XWovDNecfE-GNvso7LRIQ_UcDc5FxDW0-i5eBq7X7Q/edit?tab=t.0)
 
