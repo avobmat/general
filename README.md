@@ -69,7 +69,6 @@ You can upload your databases in various formats or submit upload requests with 
 - TEI XMLs with CSV (metadata)
 - Zotero RDF (metadata and text files)
 
-
 # Steps for Preparing and Uploading Textual Data
 
 You don’t need programming knowledge to upload your own databases. Just follow these steps carefully.
@@ -116,8 +115,8 @@ You don’t need programming knowledge to upload your own databases. Just follow
 
 5. Export (textual) data from Zotero (OPTIONAL)
     - To use your Zotero collections, right-click on a collection and select “Export Collection…”.
-    - Export in CSV or RDF (metadata and texts) format. You can then adapt the exported file to AVOBMAT.
-
+    - Export in CSV or RDF (metadata and texts) format.
+    - AVOBMAT supports Zotero’s metadata fields, so you do not need to modify the exported CSV or RDF files.
 
 6. Bundle your files for upload
     - If you are analyzing only metadata: just upload your CSV file.
@@ -126,9 +125,7 @@ You don’t need programming knowledge to upload your own databases. Just follow
         - place the CSV and text files together in one folder.
     - If you have separate text files, compress the CSV and text files into a single ZIP file before uploading.
 
-
 7. If you are not a privileged user with full upload rights, please provide a link to the shared folder (e.g., Google Drive, Dropbox, or OneDrive) where we can access your zipped file. Please make sure the folder is shared so that anyone with the link can view and download the file; otherwise we will receive a ‘You need access’ message and will not be able to process your data.
-
 
 # License
 [Terms of Use](https://docs.google.com/document/d/17XWovDNecfE-GNvso7LRIQ_UcDc5FxDW0-i5eBq7X7Q/edit?tab=t.0)
