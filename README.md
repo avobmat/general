@@ -118,12 +118,14 @@ You don’t need programming knowledge to upload your own databases. Just follow
     - Export in CSV or RDF (metadata and texts) format.
     - AVOBMAT supports Zotero’s metadata fields, so you do not need to modify the exported CSV or RDF files.
 
-6. Bundle your files for upload
-    - If you are analyzing only metadata: just upload your CSV file.
-    - If you are analyzing texts as well: either
-        - include them directly in the text column of the CSV, or
-        - place the CSV and text files together in one folder.
-    - If you have separate text files, compress the CSV and text files into a single ZIP file before uploading.
+6. How to upload your files
+    - First, check the contents of the `sample_upload_databases` folder on GitHub.
+    - If you are analyzing only metadata:
+        - Simply upload your CSV file (such as a Zotero CSV export). No compression is needed.
+	- If you are analyzing texts as well, choose one of the following options:
+        - If you included the texts directly in the `text` column of the CSV, just upload the CSV. No compression is needed.
+        - If you have a CSV (with metadata) and separate text files (e.g. TXT, PDF, TEI XML), compress them into a single ZIP file before uploading.
+        - If you are using Zotero, export your collection as RDF and compress the resulting files folder together with the RDF file into a single ZIP file before uploading.
 
 7. If you are not a privileged user with full upload rights, please provide a link to the shared folder (e.g., Google Drive, Dropbox, or OneDrive) where we can access your zipped file. Please make sure the folder is shared so that anyone with the link can view and download the file; otherwise we will receive a ‘You need access’ message and will not be able to process your data.
 
